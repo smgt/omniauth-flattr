@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["simon@smgt.me"]
   gem.description   = %q{Official OmniAuth strategy for Flattr.}
   gem.summary       = %q{Official OmniAuth strategy for Flattr.}
-  gem.homepage      = "https://github.com/simon/omniauth-flattr"
+  gem.homepage      = "https://github.com/smgt/omniauth-flattr"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
