@@ -16,7 +16,7 @@ Flattr API lets you set scopes to provide granular access to different types of 
 
 ```ruby
 use OmniAuth::Builder do
-  provider :flattr, ENV['FLATTR_KEY'], ENV['FLATTR_SECRET'], scope: "flattr,email,thing"
+  provider :flattr  ENV['FLATTR_KEY']  ENV['FLATTR_SECRET']  scope: "flattr email thing"
 end
 ```
 
